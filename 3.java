@@ -9,17 +9,17 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		// your code goes here
-		Scanner sc = new Scanner(System.in);
-
-		int num = sc.nextInt();
-
-		if(num % 2 == 0)
+		Scanner sc=new Scanner(System.in);
+		char ch=sc.next().charAt(0);	 
+		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
 		
-		System.out.println("Even");
-		
+		{
+			
+			System.out.println("Vowel"); 
+			
+		}
 		else
 		
-     		System.out.println("Odd");
+		System.out.println("Consonant");
 	}
 }
